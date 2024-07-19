@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>User Dashboard</h1>
+    </header>
+    <main>
+        <section class="user-actions">
+            <h2>Welcome Buddy</h2>
+            <button onclick="showSection('viewSubjects')">View Subjects</button>
+            <button onclick="showSection('answerQuestions')">Answer Questions</button>
+            <button onclick="showSection('getResults')">Get Results</button>
+        </section>
+        <section id="viewSubjects" class="user-section">
+            <h3>Subjects</h3>
+            <p>Download Materials for each subject:</p>
+            <ul>
+                <li>Maths</li>
+                <li>Science</li>
+                <li>Hindi</li>
+                <li>English</li>
+                <li>Social Studies</li>
+                <li>computer science</li>
+                <li>Art</li>
+                <li>Fun Activities</li>
+            </ul>
+        </section>
+        <section id="answerQuestions" class="user-section">
+            <h3>Answer Questions</h3>
+            <!-- Add content here -->
+        </section>
+        <section id="getResults" class="user-section">
+            <h3>Get Results</h3>
+            <!-- Add content here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 BrainyBuddies. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,84 @@
+body {
+    font-family: "Papyrus, fantasy";
+    font-style: normal;
+    background: url('final2.png') no-repeat center center fixed ;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: skyblue;
+    color: black;
+    text-align: center;
+    padding: 2em;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav button {
+    background-color: #f6f676;
+    border: black;
+    color: black;
+    padding: 0.5em 1em;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 0.5em;
+}
+
+nav button:hover {
+    background-color: #cc7a00;
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+section {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 1em;
+    margin: 1em auto;
+    width: 80%;
+}
+
+h2, h3 {
+    color: purple;
+}
+button {
+    background-color: #f6f676;
+    border: black;
+    color: black;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc7a00;
+}
+
+footer {
+    background-color: skyblue;
+    color: black;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.login-section {
+    display: none;;
+}
+
+.admin-section,
+.user-section {
+    display: none;
+}

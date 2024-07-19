@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrainyBuddies</title>
+    <link rel="stylesheet" href="index-style.css">
+</head>
+<body>
+    <header>
+        <h1>Brainy-Buddies</h1>
+        <nav>
+            <button onclick="showSection('adminLogin')">Admin Login</button>
+            <button onclick="showSection('userLogin')">User Login</button>
+        </nav>
+    </header>
+    <main>
+        <section class="welcome">
+            <h2>Welcome to Brainy-Buddies!</h2>
+            <p>Fun and engaging e-learning platform for kids up to class 5.</p>
+        </section>
+        <section id="adminLogin" class="login-section">
+            <h3>Admin Login</h3>
+            <form onsubmit="return login('admin')">
+                <label for="adminUsername">Username:</label>
+                <input type="text" id="adminUsername" name="username">
+                <label for="adminPassword">Password:</label>
+                <input type="password" id="adminPassword" name="password">
+                <button type="submit">Login</button>
+            </form>
+        </section>
+        <section id="userLogin" class="login-section">
+            <h3>User Login</h3>
+            <form onsubmit="return login('user')">
+                <label for="userUsername">Username:</label>
+                <input type="text" id="userUsername" name="username">
+                <label for="userPassword">Password:</label>
+                <input type="password" id="userPassword" name="password">
+                <button type="submit">Login</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 BrainyBuddies. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
